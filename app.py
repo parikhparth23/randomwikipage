@@ -10,3 +10,6 @@ def home():
     result = requests.get(baseurl)
     return result.content
 
+
+if __name__ == '__main__':
+    app.run()
